@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    background-color:rgb(48, 164, 214) ;
+    padding-top: 20px;
+}
+.main{
+    background-color: rgb(48, 164, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main .form_main{
+    padding: 10px;
+}
+.main .form_main h1{
+    color: white;
+    padding-top: 10px;
+    font-weight: 1;
+    font-size: 40px;
+    font-family: Arial Narrow 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.head{
+    border: 1px solid white;
+    width: 500px;
+    height: 100%;
+    margin-top: 30px;
+    padding: 5%;
+    background: white;
+    box-shadow: 0 0 5px white;
+}
+.names{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.names p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head .names input{
+    height: 40px;
+    width:115%;
+    size: 50;
+    border: 1.5px solid black;
+}
+.names .email{
+    margin-left: 30px;
+}
+.names .email #pp{
+    padding-left: 15px;
+}
+.names .email input{
+    margin-left: 15px;
+}
+p{
+    color: black;
+    font-weight: 30px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    width: 100%;
+}
+.half label{
+    padding: 10px;
+}
+.final input{
+    height: 110px;
+    width: 100%;
+    margin-left: 8px;
+    border: 1.5px solid black;
+}
+.button{
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    margin-left: 8px;
+    background: rgb(32, 159, 214);
+    color: white;
+    border: none;
+}
